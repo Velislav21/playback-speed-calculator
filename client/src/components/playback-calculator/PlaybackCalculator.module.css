@@ -1,0 +1,95 @@
+p.intro-msg {
+    margin: 1em 0;
+    max-width: 50ch;
+    font-size: 1.3em;
+}
+
+.calculator {
+    margin: 3em auto;
+    max-width: 43.75em;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    padding: 1.25em;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.label {
+    width: 10em;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+.timeInputs {
+    display: flex;
+    gap: 1em;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.inputLabel {
+    font-size: 0.9em;
+    margin-bottom: 0.6em;
+    color: #444;
+    text-align: center;
+}
+
+.input {
+    width: 8em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    font-size: 1em;
+}
+
+.select {
+    width: 8em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    background-color: white;
+    font-size: 1em;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1.5em 0;
+}
+
+.resultField {
+    background-color: #f0ffea;
+    font-weight: bold;
+}
+
+.timeSavedLabel {
+    width: 16em;
+    color: #b35c00;
+    font-weight: normal;
+}
+
+.speedLabel {
+    width: 10em;
+    color: #b35c00;
+    font-weight: normal;
+}
+
+.result {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}

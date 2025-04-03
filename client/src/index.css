@@ -16,11 +16,16 @@ table {
 }
 body {
     padding: 2vw;
-    background-color: #cccccc;
+    background-color: #e4e4e4;
     min-height: 100dvh;
 }
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+}
+div#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
