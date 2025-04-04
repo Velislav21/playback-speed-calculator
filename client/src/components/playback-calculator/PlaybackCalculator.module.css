@@ -23,8 +23,9 @@ p.intro-msg {
 }
 
 .label {
-    width: 10em;
+    width: 12em;
     font-weight: bold;
+    line-height: 1.5;
     color: #333;
     text-align: left;
 }
@@ -73,17 +74,10 @@ p.intro-msg {
 
 .resultField {
     background-color: #f0ffea;
-    font-weight: bold;
-}
-
-.timeSavedLabel {
-    width: 16em;
-    color: #b35c00;
-    font-weight: normal;
+    letter-spacing: 0.05em;
 }
 
 .speedLabel {
-    width: 10em;
     color: #b35c00;
     font-weight: normal;
 }
