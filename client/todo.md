@@ -1,0 +1,1 @@
+[ ] Fix bug when typing 0. in the playback speed input renders infinity nan..
