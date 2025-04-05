@@ -19,7 +19,7 @@ export default function PlaybackCalculator() {
         const { name, value } = e.target
         if (
             value.includes("-") || (value.startsWith("0") && name !== "playbackSpeed")
-            || (value === "" && name === "playbackSpeed")
+            || (value === "" || value === "0" && name === "playbackSpeed")
         ) {
             return;
         }
