@@ -1,2 +1,2 @@
-This calculator is hosted [here](https://playback-speed-calculator2.web.app/)
+This calculator is hosted [here](https://playback-speed-calculator2.web.app/). <br/>
 The application lets the user provide video length and calculate the time needed depending on the playback speed.
